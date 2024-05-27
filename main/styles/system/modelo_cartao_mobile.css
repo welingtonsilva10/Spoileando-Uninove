@@ -1,0 +1,176 @@
+@media /* (min-width:320px) and */ (max-width:767px)  
+{
+    .todoCartao{
+        margin: 1vh 0 1vh 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: var(--c30);
+        display: flex;
+    }
+    .ladoEsquerdo{
+        width: 25vw;
+        height: 50vh;
+        background-color: var(--c30);
+    }
+    .imgUsuario{
+        width: 25vw;
+        height: 10vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .infConteudo{
+        width: 25vw;
+        height: 32vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ondeEncontrar{
+        width: 25vw;
+        height: 8vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titConteudo{
+        width: 75vw;
+        height: 10vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texConteudo{
+        width: 74vw;
+        height: 30vh;
+        background-color: var(--c60);
+        border-radius: 1vh;
+        overflow-y: auto;
+    }
+    .texConteudo::-webkit-scrollbar {
+        display: none;
+    }
+    .intConteudo{
+        width: 75vw;
+        height: 7vh;
+        background-color:var(--c30);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cirUsuario{
+        width: 7vh;
+        height: 7vh;
+        border: 2px solid var(--c60);
+        border-radius: 50%;
+        background-color: var(--c60);
+    }
+    .arqUsuario{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .arqUsuario2{
+        position: fixed;
+        width: 60vw;
+        height: auto;
+        border-radius: 10%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .caiConteudo{
+        width: 90%;
+        height: 90%;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titPrincipal{
+        padding: 0;
+        margin: 0;
+        color: var(--c60);
+        font-size: 12pt;
+        align-items: center;
+        text-transform: capitalize;
+    }
+    .texPrincipal{
+        margin: 0;
+        padding: 2vw;
+        font-size: 11pt;
+        text-align: left;
+        color: var(--c00);
+        white-space: pre-line;
+    }
+    .btnConteudo{
+        width: 13vw;
+        height: 5vh;
+        background-color: var(--c30);
+        border: none;
+    }
+    .btnImagem{
+        width: 100%;
+        fill: var(--fabule);
+    }
+    .notConteudo{
+        width: 90%;
+        height: 7vh;
+        border: 2px solid var(--c60);
+        border-radius: 3vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .valNota{
+        font-size: 18pt;
+        margin: 0;
+        color: var(--c10);
+    }
+    .legNota{
+        font-size: 10pt;
+        margin: 0;
+        color: var(--c60);
+    }
+    .datConteudo{
+        font-size: 8pt;
+        margin: 1vh 0;
+        color: var(--c60);
+    }
+    .tamImagem{
+        max-width: 20vw;
+        border-radius: 2vh;
+    }
+    .btnOnde{
+        width: 80%;
+        height: 90%;
+        border: 2px solid var(--c60);
+        border-radius: 2vh;
+        background-color: var(--c30);
+        color: var(--c60);
+        font-size: 12pt;
+        text-align: center;
+    }
+    .quaCurti{
+        width: 75vw;
+        height: 3vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    .triC{
+        margin: 0 ;
+        width: 20vw;
+        font-size: 10pt;
+        text-align: center;
+        color: var(--c60);
+    }
+}

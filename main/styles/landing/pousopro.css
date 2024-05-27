@@ -1,0 +1,279 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 7%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigationBar{
+    width: 96%;
+    height: 100%;
+    background-color: orangered;
+    border-radius: 0 0 90px 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.linkBar{
+    font-size: 10pt;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+main{
+    width: 100%;
+    height: 93%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionTittlePage{
+    width: 90%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionCarroselInteractive{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.sectionConvertionInteration{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.boxTittle{
+    width: fit-content;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+}
+.tittlePage{
+    font-size: 40pt;
+    margin: 0;
+    color: rgb(255, 68, 0);
+    text-shadow: 0px 20px 200px;
+    border-radius: 200px;
+}
+.subtitlePage{
+    width: 100%;
+    text-align: right;
+    font-size: 14pt;
+    color: black;
+    margin: 0;
+}
+.boxButton{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4vw;
+}
+.buttonConvertion{
+    width: 45vw;
+    height: 10vh;
+    background-color: #0db929;
+    border: none;
+    color: white;
+    font-size: 14pt;
+    font-weight: bolder;
+    border-radius: 4vw;
+}
+.windowJamComment{
+    width: 80%;
+    height: 90%;
+    background-color: rgb(184, 184, 184);
+    margin: 0 10vw;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.textWindowPropy{
+    width: 90vw;
+    height: 8vh;
+    margin: 0 10vw;
+    border: 4px solid rgb(184, 184, 184);
+    background-color: white;
+    border-radius: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 12pt;
+}
+.commentBox{
+    width: 90%;
+    height: 60%;
+    margin: 0 10vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2.3vw;
+    border-radius: 14px;
+}
+p{
+    text-align: center;
+    font-size: 11pt;
+}
+.avaliationBox{
+    width: 90%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.588);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 2.3vw;
+    border-radius: 14px;
+}
+.valueWindow{
+    background-color: white;
+    border-radius: 30px;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 28pt;
+    margin: 0;
+    color: orangered;
+}
+.buttonAvaliation{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.notaPande{
+    width: 40vw;
+    height: 4vh;
+}
+.faceNoteAvaliation{
+    width: 70px;
+}
+.searchBox{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 2.3vw;
+    border-radius: 14px;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imageStreamer{
+    width: 28%;
+}
+.parConvenciment{
+    width: 80%;
+    font-size: 12pt;
+}
+.links_rodape{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.link_rodape{
+    color: white;
+    font-size: 13pt;
+    text-decoration: none;
+    margin-bottom: 1vh;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+.rodapeBoxMore{
+    width: 90%;
+}
+.tittleFooter{
+    font-size: 16pt;
+    color: white;
+    margin: 3vh 0 1vh;
+}
+.textContent{
+    width: 90%;
+    text-align: justify;
+}
+@media screen and (min-width: 700px){
+    /* .linkBar{
+        font-size: 22pt;
+    }
+    .tittlePage{
+        font-size: 70pt;
+    }
+    .subtitlePage{
+        font-size: 26pt;
+    }
+    .tittleFooter{
+        font-size: 34pt;
+    }
+    .commentBox{
+        width: 54%;
+    }
+    .textWindowPropy{
+        width: 50vw;
+    }
+    .parConvenciment{
+        font-size: 24pt;
+    }
+    p{
+        font-size: 20pt;
+    }
+    .buttonConvertion{
+        font-size: 30pt;
+    }
+    .link_rodape{
+        font-size: 28pt;
+    } */
+    .imageStreamer{
+        width: 13%;
+    }
+}

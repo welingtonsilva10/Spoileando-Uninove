@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/main/images/logo/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/main/styles/login/login_mobile.css">
+    <link rel="stylesheet" href="/main/styles/login/login_desktop.css">
+    <script src="/functions/dados_login.js" defer></script>
+    <meta name="description" content="Faça login com seu nome de usuário ou email e senha para se conectar a milhares de pessoas na Spoileando">
+    <title>Spoileando - Conectar</title>
+</head>
+<body>
+    <main class="all_page">
+
+        <section class="imagem" >
+            <h4 id="retorno"></h4>
+            <img class="bear" src="/main/images/landing/bear.svg" alt="White bear animated.">
+            <h1 class="logoname mobile">Spoileando</h1>
+        </section>
+        <section class="formulario" >
+            
+            <form class="formulario_login" action="/main/back/disconnected/login.php" method="post" onsubmit="return verificar()">
+                <h1 class="logoname desktop">Spoileando</h1>
+                <input class="enter_data" id="email" type="text" name="email" placeholder="email ou usuário">
+                <input class="enter_data" id="senha" type="password" name="senha" placeholder="senha">
+                <input class="press_go" type="submit" name="submit" value="Conectar">
+            </form>
+
+            <div class="other_links">
+                <a class="link" href="/register.html">Não tenho cadastro</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

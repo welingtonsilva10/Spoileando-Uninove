@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Onest:wght@400;500;700&display=swap');
+        body{
+            font-family: 'Brygada 1918';
+        }
+@media (min-width:320px) and (max-width:767px)
+{
+    body{
+        background-color: orangered;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .all_page{
+        min-width: 80vw;
+        max-width: 90vw;
+        min-height: 80vh;
+        max-height: 90vh;
+    }
+
+    .imagem{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .bear{
+        width: 40%;
+    }
+    .logoname{
+        margin: 0;
+        font-size: 8vw;
+        color: white;
+    }
+    
+    .formulario{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario_login{
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 60%;
+        max-height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .enter_data{
+        width: 90%;
+        height: 12vw;
+        background-color: #ffffffb0;
+        border: 0;
+        font-size: 100%;
+        border-radius: 2vh;
+        padding: 0 4vw ;
+        outline: none;
+    }
+    .press_go{
+        width: 50%;
+        height: 10vw;
+        border-radius: 2vh;
+        border: 0;
+    }
+    
+    .other_links{
+        height: 20vw;
+        text-align: center;
+        display: flex;
+        align-items: end;
+        
+    }
+    .link{
+        text-decoration: dashed;
+        color: white;
+        font-size: 14pt;
+    }
+}

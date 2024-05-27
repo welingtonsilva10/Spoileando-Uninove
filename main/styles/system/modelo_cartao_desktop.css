@@ -1,0 +1,181 @@
+@media (min-width:768px) 
+/* and (max-width:1600px)   */
+{
+    .todoCartao{
+        margin: 1vh 0 1vh 0;
+        width: 60vw;
+        height: 70vh;
+        background-color: var(--c30);
+        display: flex;
+        border-radius: 2vh;
+    }
+    .ladoEsquerdo{
+        width: 20vw;
+        height: 60vh;
+        background-color: var(--c30);
+        border-radius: 2vh 0 0 0;
+    }
+    .ladoDireito{
+        width: 45vw;
+        background-color: var(--c30);
+        border-radius: 0 2vh 2vh 0;
+    }
+    .imgUsuario{
+        width: 20vw;
+        height: 10vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2vh 0 0 0 ;
+    }
+    .infConteudo{
+        width: 20vw;
+        height: 50vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ondeEncontrar{
+        width: 20vw;
+        height: 8vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titConteudo{
+        width: 44vw;
+        height: 10vh;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 2vh 0 0;
+    }
+    .texConteudo{
+        width: 40vw;
+        height: 45vh;
+        background-color: var(--c60);
+        border-radius: 1vh;
+        overflow-y: auto;
+    }
+    .intConteudo{
+        width: 40vw;
+        height: 7vh;
+        background-color:var(--c30);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cirUsuario{
+        width: 8vh;
+        height: 8vh;
+        border: 2px solid var(--c60);
+        border-radius: 50%;
+        background-color: var(--c60);
+    }
+    .arqUsuario{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .arqUsuario2{
+        position: fixed;
+        width: 40vw;
+        max-height: auto;
+        border-radius: 10%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .caiConteudo{
+        width: 90%;
+        height: 90%;
+        background-color: var(--c30);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titPrincipal{
+        padding: 0;
+        margin: 0;
+        color: var(--c60);
+        font-size: 16pt;
+        align-items: center;
+    }
+    .texPrincipal{
+        margin: 0;
+        padding: 2vw;
+        font-size: 11pt;
+        text-align: left;
+        color: var(--c00);
+        white-space: pre-line;
+    }
+    .btnConteudo{
+        width: 13vw;
+        height: 7vh;
+        background-color: var(--c30);
+        border: none;
+    }
+    .btnImagem{
+        width: 40%;
+        fill: var(--c60);
+    }
+    .notConteudo{
+        width: 90%;
+        height: 7vh;
+        border: 2px solid var(--c10);
+        border-radius: 3vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .valNota{
+        font-size: 18pt;
+        margin: 0;
+        color: var(--c10);
+    }
+    .legNota{
+        font-size: 10pt;
+        margin: 0;
+        color: var(--c60);
+    }
+    .datConteudo{
+        font-size: 8pt;
+        margin: 1vh 0;
+        color: var(--c60);
+    }
+    .tamImagem{
+        max-width: 10vw;
+        border-radius: 2vh;
+    }
+    .btnOnde{
+        width: 80%;
+        height: 90%;
+        border: 2px solid var(--c60);
+        border-radius: 2vh;
+        background-color: var(--c30);
+        color: var(--c60);
+        font-size: 12pt;
+        text-align: center;
+    }
+    .quaCurti{
+        width: 40vw;
+        height: 3vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    .triC{
+        margin: 4vh 0 ;
+        width: 20vw;
+        font-size: 10pt;
+        text-align: center;
+        color: var(--c60);
+    }
+}

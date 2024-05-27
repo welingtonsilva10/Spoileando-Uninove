@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/main/images/logo/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/main/styles/suport/apoieMobile.css">
+    <link rel="stylesheet" href="/main/styles/suport/apoieDesktop.css">
+    <script src="/main/scripts/arrumar/qrGenerator.js" defer></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js" defer></script>
+    <title>Spoileando - Apoie</title>
+</head>
+<body>
+    <main class="principal">
+        <section class="introducao">
+            <h1 class="titulo">Spoileando</h1>
+            <h2 class="subtitulo">A Spoileando é uma rede social independente, apoie ela para continuarmos melhorando nossos serviços.</h2>
+        </section>
+        <section class="imagem">
+            <div class="borda" id="quadro">
+                <button onclick="mostrarQr()" id="btnCodigo" class="textoBtn"><span>Mostrar QR code</span></button>
+                <div class="blocoQr" id="bloco"><span id="qrcode"></span></div>
+            </div>
+        </section>
+        <section class="dados">
+            <h3 class="chave">Chave pix: <span>conta@spoileando.com</span></h3>
+        </section>
+    </main>
+</body>
+</html>

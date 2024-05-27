@@ -1,0 +1,51 @@
+:root{
+    
+    --c60: #ffffff;
+    --c30: #C2C2C2;    ;
+    --c10: #ff4e23;
+    --cff: #ffffff;
+    --c00: #000000;
+    
+    --ftt: 'Brygada 1918';
+    --fst: ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    top: 0;
+    left: 0;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer{
+    width: 100vw;
+    display: flex;
+    min-height: 10vh;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

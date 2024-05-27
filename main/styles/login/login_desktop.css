@@ -1,0 +1,94 @@
+@media (min-width:768px) and (max-width:1600px)
+{
+    body{
+        background-color: orangered;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .all_page{
+        min-width: 80vw;
+        max-width: 90vw;
+        min-height: 80vh;
+        max-height: 90vh;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .imagem{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .bear{
+        min-width: 60%;
+        max-width: 70%;
+    }
+    .logoname{
+        margin: 0;
+        font-size: 4vw;
+        color: white;
+    }
+
+    .formulario{
+        width: 40%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario_login{
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 80%;
+        max-height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .enter_data{
+        width: 70%;
+        height: 8vh;
+        background-color: #ffffffb0;
+        border: 0;
+        font-size: 100%;
+        border-radius: 2vh;
+        padding: 0 4vw ;
+        outline: none;
+    }
+    .press_go{
+        width: 50%;
+        height: 8vh;
+        border-radius: 2vh;
+        border: 0;
+    }
+    
+    .other_links{
+        height: 20vw;
+        text-align: center;
+        display: flex;
+        align-items: end;
+        
+    }
+    .link{
+        text-decoration: dashed;
+        color: #ffffff;
+        font-size: 14pt;
+    }
+    .mobile{
+        display: none;
+    }
+}

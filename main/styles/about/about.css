@@ -1,0 +1,174 @@
+:root{
+    --c60: #ffffff;
+    --c30: #C2C2C2;    ;
+    --c10: #ff4e23;
+    --cff: #ffffff;
+    --c00: #000000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--c10);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.atual_versao{
+    margin: 0 0 10px 10px;
+    width: 94%;
+    white-space: pre-line;
+    display: flex;
+}
+.atua_versao{
+    margin: 0 0 10px 10px;
+    width: 94%;
+    white-space: pre-line;
+    display: none;
+}
+.bloco_principal{
+    width: 90%;
+    height: fit-content;
+    margin-top: 10px ;
+    background-color: var(--c30);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+}
+.titu_principal{
+    margin: 0;
+}
+.para_principal{
+    width: 70%;
+    text-align: center;
+}
+.bloco_secundario{
+    width: 90vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.sub_bloco_versao{
+    width: 35%;
+    height: 10vh;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--c30);
+}
+.sub_bloco_novidades{
+    width: 60%;
+    height: 10vh;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--c30);
+}
+.subtitulo_secundario{
+    margin: 0;
+    font-weight: 400;
+    font-size: 11pt;
+}
+.valor_texto{
+    font-size: 16pt;
+    color: var(--c10);
+}
+.novidades{
+    width: 90vw;
+    background-color: var(--c30);
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.tit_versao{
+    margin: 10px 0 0 10px;
+
+}
+.versoes_antigas{
+    width: 90vw;
+    height: fit-content;
+    border-radius: 6px;
+    background-color: var(--c30);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+}
+.bloco_antigo{
+    width: 90%;
+    height: fit-content;
+    margin: 10px 0 6px 10px;
+}
+.botao_antigo{
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-radius: 6px;
+    text-align: start;
+    border-right: 4px solid var(--c10);
+}
+
+.nome_site{
+    width: fit-content;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.titulo_cabecalho{
+    margin: 0;
+    font-size: 20pt;
+}
+.menu{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.link_cabecalho{
+    color: white;
+    font-size: 12pt;
+    text-decoration: none;
+}
+.sinistra{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}

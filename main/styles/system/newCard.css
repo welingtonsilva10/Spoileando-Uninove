@@ -1,0 +1,237 @@
+.newCard{
+    width:100vw;
+    height:50vh;
+    background-color:rgb(174, 174, 174);
+    margin-top:1vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+@media (min-width:768px) and (max-width:1600px){
+    .newCard{
+        width:60vw;
+        height:60vh;
+        background-color:rgb(174, 174, 174);
+        margin-top:1vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+}
+.userLand{
+    width:100%;
+    height:15%;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.userImageBox{
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rediminante{
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+}
+.userImageCard{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.userInformation{
+    width: 70%;
+    height: 60%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.contentLand{
+    width:100%;
+    height:68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postBox{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 0.2px solid white;
+}
+.notePoster{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.textPost{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.imgContent{
+    width: 100%;
+    height: 70%;
+}
+.noteContent{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(174, 174, 174);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.2px solid white; */
+}
+.welingtonLindo{
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.whereFind{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.612);
+    z-index: 4;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.buttonIntexactionBox{
+    width:15%;
+    height:100%;
+    display:flex;
+    justify-content:end;
+    flex-direction:column;
+    align-items:center;
+}
+.triC{
+    margin:0;
+}
+.interactionLand{
+    width:100%;
+    height:15%;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.interactiveButtonCard{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.imageButtonInteractive{
+    width: 90%;
+}
+.nameUser{
+    margin: 0;
+    font-size: 11pt;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.textStandard{
+    margin: 0;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+}
+.resenhaStandard{
+    width: 94%;
+    height: 92%;
+    margin: 0;
+    font-size: 10pt;
+    color: rgb(0, 0, 0);
+    overflow-y: auto;
+    white-space: pre-line;
+}
+.resenhaStandard::-webkit-scrollbar {
+    display: none;
+}
+.noteUser{
+    margin: 0;
+    font-size: 24pt;
+    color: rgb(235, 66, 0);
+}
+.avaliationUser{
+    margin: 0;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+}
+.titleBox{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittleStandard{
+    max-width: 90%;
+    margin: 0;
+    font-size: 12pt;
+    color: #000000;
+    text-align: center;
+    text-transform: capitalize;
+}
+.imageContentSearch{
+    width: 100%;
+}
+.resenhaBox{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+.typeContentBox{
+    width: fit-content;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(0, -50%);
+    border-radius: 6px;
+}
+.typeContent{
+    padding: 1px 6px;
+    margin: 0;
+    color: orangered;
+}
+.arqUsuario2{
+    z-index: 2;
+}
+.triC{
+    margin: 0 ;
+    width: 20vw;
+    font-size: 10pt;
+    text-align: center;
+    color: var(--c60);
+}
